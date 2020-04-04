@@ -5,9 +5,9 @@ def fortest():
     singleinfolist = []
 
     #移除用户自己触发的recovery
-    # for singleinfo in mmldata:
-    #     if temp ==singleinfo[0]:
-    #         mmldata.remove(singleinfo)
+    for singleinfo in mmldata:
+        if temp ==singleinfo[0]:
+            mmldata.remove(singleinfo)
 
     #保存数据,空list也是可以遍历的
     for singleinfo in mmldata:
