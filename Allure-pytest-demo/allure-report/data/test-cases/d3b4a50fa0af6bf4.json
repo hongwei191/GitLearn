@@ -1,0 +1,73 @@
+{
+  "uid" : "d3b4a50fa0af6bf4",
+  "name" : "test_broken",
+  "fullName" : "test_allure_feature.TestLogin#test_broken",
+  "historyId" : "820cfc31a96c11119c79600043e38f41",
+  "time" : {
+    "start" : 1582701229551,
+    "stop" : 1582701229551,
+    "duration" : 0
+  },
+  "description" : "broken",
+  "descriptionHtml" : "<p>broken</p>\n",
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'broken.json'",
+  "statusTrace" : "self = <test_allure_feature.TestLogin object at 0x0000026E922AD8D0>\n\n    @allure.severity(allure.severity_level.TRIVIAL)\n    @allure.story(\"测试broken用例\")\n    @allure.issue(\"https://www.cnblogs.com/linuxchao/\", \"错误链接\")\n    def test_broken(self):\n        \"\"\"broken\"\"\"\n>       with open(\"broken.json\", \"r\", encoding='utf8') as f:\nE       FileNotFoundError: [Errno 2] No such file or directory: 'broken.json'\n\ntest_allure_feature.py:164: FileNotFoundError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "story",
+    "value" : "测试broken用例"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure_feature"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1TP29R9"
+  }, {
+    "name" : "thread",
+    "value" : "14420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure_feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "错误链接",
+    "url" : "https://www.cnblogs.com/linuxchao/",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d3b4a50fa0af6bf4.json",
+  "parameterValues" : [ ]
+}

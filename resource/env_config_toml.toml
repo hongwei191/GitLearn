@@ -1,0 +1,10 @@
+[C3]
+MCC = 460
+MNC= 60
+CELL = 'TDD'
+ID= 5
+[C4]
+MCC=262
+MNC=36
+CELL='WCDMA'
+ID= 9

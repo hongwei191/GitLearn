@@ -1,0 +1,10 @@
+#This is a TOML document. Boom.
+
+title = "TOML Example"
+[NR]
+    [NR.NA]
+        "ADD ONE: MNC=MNC1,MCC=MCC1;"
+    [NR.NR]
+        "ADD TWO: MNC=MNC2,MCC=MCC2;"
+        "ADD THREE: MNC=MNC1,MNC=2;ADD FOUR:ID=ID1,CELL=CELL1;"
+    [NR.LTE]

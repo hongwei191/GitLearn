@@ -1,0 +1,141 @@
+[ {
+  "uid" : "d3b4a50fa0af6bf4",
+  "name" : "test_broken",
+  "time" : {
+    "start" : 1582701229551,
+    "stop" : 1582701229551,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "trivial"
+}, {
+  "uid" : "12d9209fcda27f5e",
+  "name" : "test_with_scoped_finalizers[param_false]",
+  "time" : {
+    "start" : 1582701229609,
+    "stop" : 1582701229609,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "2977320d4e12719c",
+  "name" : "test_with_scoped_finalizers[param_false]",
+  "time" : {
+    "start" : 1582701229583,
+    "stop" : 1582701229584,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "efbd747b37918ad4",
+  "name" : "登录成功场景-{'case': '用户名正确, 密码正确', 'user': 'linux超', 'pwd': '123456', 'expected': {'code': 1001, 'msg': '登录成功', 'data': None}}",
+  "time" : {
+    "start" : 1582701229376,
+    "stop" : 1582701229377,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "13b640998315669f",
+  "name" : "test_with_scoped_finalizers[param_true]",
+  "time" : {
+    "start" : 1582701229602,
+    "stop" : 1582701229602,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "bde18210eee297f6",
+  "name" : "test_username_none[测试缺省用户名参数密码123456期望值{'code': 1003, 'msg': '用户名不能为空', 'data': None}]",
+  "time" : {
+    "start" : 1582701229460,
+    "stop" : 1582701229460,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "91e89793bc6d840c",
+  "name" : "test_with_scoped_finalizers[param_true]",
+  "time" : {
+    "start" : 1582701229575,
+    "stop" : 1582701229575,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "6980f1c594480850",
+  "name" : "test_skip",
+  "time" : {
+    "start" : 1582701229569,
+    "stop" : 1582701229569,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "trivial"
+}, {
+  "uid" : "58697a9dc82c5512",
+  "name" : "test_password_none[测试缺省密码参数用户名:linux超期望值{'code': 1002, 'msg': '密码不能为空', 'data': None}]",
+  "time" : {
+    "start" : 1582701229464,
+    "stop" : 1582701229465,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "acb5bec2c31e5619",
+  "name" : "test_login_fail[测试用户名正确, 密码为空用户名:linux超密码期望值{'code': 1002, 'msg': '密码不能为空', 'data': None}]",
+  "time" : {
+    "start" : 1582701229400,
+    "stop" : 1582701229401,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5a0be823886b7d69",
+  "name" : "test_login_fail[测试用户名错误, 密码错误用户名:linux密码linux期望值{'code': 1004, 'msg': '用户名或密码错误', 'data': None}]",
+  "time" : {
+    "start" : 1582701229453,
+    "stop" : 1582701229454,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c7eed534983ecca1",
+  "name" : "test_init_url",
+  "time" : {
+    "start" : 1582701229469,
+    "stop" : 1582701229469,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "6e1d090fae51f179",
+  "name" : "test_failed",
+  "time" : {
+    "start" : 1582701229473,
+    "stop" : 1582701229473,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "670cca2969a6b146",
+  "name" : "test_login_fail[测试用户名为空, 密码正确用户名:密码linux超哥期望值{'code': 1003, 'msg': '用户名不能为空', 'data': None}]",
+  "time" : {
+    "start" : 1582701229440,
+    "stop" : 1582701229441,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

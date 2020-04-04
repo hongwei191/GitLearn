@@ -1,0 +1,41 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: 'attach.png'",
+      "children" : [ {
+        "name" : "test_failed",
+        "uid" : "6e1d090fae51f179",
+        "parentUid" : "0250dc1682cfe59c2836fda254daef4c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1582701229473,
+          "stop" : 1582701229473,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0250dc1682cfe59c2836fda254daef4c"
+    }, {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: 'broken.json'",
+      "children" : [ {
+        "name" : "test_broken",
+        "uid" : "d3b4a50fa0af6bf4",
+        "parentUid" : "4e8385d2dedac281752e3e90d1dd3636",
+        "status" : "broken",
+        "time" : {
+          "start" : 1582701229551,
+          "stop" : 1582701229551,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4e8385d2dedac281752e3e90d1dd3636"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

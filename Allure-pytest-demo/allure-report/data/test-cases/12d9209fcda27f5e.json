@@ -1,0 +1,181 @@
+{
+  "uid" : "12d9209fcda27f5e",
+  "name" : "test_with_scoped_finalizers[param_false]",
+  "fullName" : "test_allure_html5.TestClass#test_with_scoped_finalizers",
+  "historyId" : "6703ba45cc65d2a8f1ed925004d3e80c",
+  "time" : {
+    "start" : 1582701229609,
+    "stop" : 1582701229609,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "module_scope_fixture_with_finalizer",
+    "time" : {
+      "start" : 1582701229599,
+      "stop" : 1582701229599,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "function_scope_fixture_with_finalizer",
+    "time" : {
+      "start" : 1582701229607,
+      "stop" : 1582701229608,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "class_scope_fixture_with_finalizer",
+    "time" : {
+      "start" : 1582701229599,
+      "stop" : 1582701229599,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "session_scope_fixture_with_finalizer",
+    "time" : {
+      "start" : 1582701229599,
+      "stop" : 1582701229599,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "module_scope_fixture_with_finalizer::module_finalizer_fixture",
+    "time" : {
+      "start" : 1582701229612,
+      "stop" : 1582701229612,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "function_scope_fixture_with_finalizer::function_scope_finalizer",
+    "time" : {
+      "start" : 1582701229609,
+      "stop" : 1582701229609,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "class_scope_fixture_with_finalizer::class_finalizer_fixture",
+    "time" : {
+      "start" : 1582701229611,
+      "stop" : 1582701229611,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "session_scope_fixture_with_finalizer::session_finalizer_fixture",
+    "time" : {
+      "start" : 1582701229614,
+      "stop" : 1582701229614,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "fixture场景"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure_html5"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1TP29R9"
+  }, {
+    "name" : "thread",
+    "value" : "14420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure_html5"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "function_scope_fixture_with_finalizer",
+    "value" : "False"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "12d9209fcda27f5e.json",
+  "parameterValues" : [ "False" ]
+}
