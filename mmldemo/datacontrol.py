@@ -4,7 +4,7 @@ def fortest():
     temp = 'ltewcdma'
     singleinfolist = []
 
-    #移除用户自己触发的recovery
+    #移除用户自己触发的recovery keyword信息
     for singleinfo in mmldata:
         if temp ==singleinfo[0]:
             mmldata.remove(singleinfo)
@@ -16,13 +16,6 @@ def fortest():
         mmldata.append(templist)
 
     print(mmldata)
-
-
-
-
-
-
-
 
 if __name__ == '__main__':
     fortest()
