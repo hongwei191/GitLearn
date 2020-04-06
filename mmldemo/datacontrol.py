@@ -17,12 +17,5 @@ def fortest():
 
     print(mmldata)
 
-
-
-
-
-
-
-
 if __name__ == '__main__':
     fortest()
