@@ -3,7 +3,7 @@ def fortest():
     mmldata = [["nrlte",(1,2,3)],['ltewcdma',(4,5,6)],['gsmlte',(7,9,0)]]
     temp = 'ltewcdma'
     singleinfolist = []
-
+    print("11111111111111")
     #移除用户自己触发的recovery
     for singleinfo in mmldata:
         if temp ==singleinfo[0]:
