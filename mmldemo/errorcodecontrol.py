@@ -84,6 +84,7 @@ def dictdatamade():
     result = {}
     if '12345' in nRETCODE:
         print("code {0} in error code".format(12345) )
+        print("222321")
     for i in range(3):
         result.setdefault(i,nRETCODE[i])
     return result
